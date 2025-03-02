@@ -1,16 +1,18 @@
 Algoritmo "operacoesBasicasFacul"
 Var
-   x, y, sum, sub, mult, divis: real
+   x, y: real
 
 Inicio
-      Escreval("Digite 2 numeros: ")
+      Escreva("Entre com o valor 1: ")
       leia(x)
+      Escreva("Entre com o valor 2: ")
       leia(y)
-      sum <- x + y
-      sub <- x - y
-      mult <- x * y
-      divis <- x / y
-      Escreval(sum, sub, mult, divis)
+
+      Escreval("===========================================")
+      Escreval("A soma dos valores e: ", x + y)
+      Escreval("A subtracao dos valores e: ", x - y)
+      Escreval("A multiplicao dos valores e: ", x * y)
+      Escreval("A divisao dos valores e: ", x / y)
 
 
 Fimalgoritmo
